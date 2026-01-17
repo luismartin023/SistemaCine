@@ -7,10 +7,18 @@ namespace SistemaCine
         static void Main(string[] args)
         {
           
-            Cine miCine = new Cine(50);
+            Cine miCine = new Cine(10);
 
-            bool continuar = true;
+            miCine.venderTaquilla();
+            miCine.verAforo();
+            miCine.sacarPersonas();
 
+            //   bool continuar = true;
+
+
+
+
+            /*
             while (continuar)
             {
                 Console.Clear(); 
@@ -27,36 +35,40 @@ namespace SistemaCine
 
                 Console.WriteLine(); 
 
-                switch (opcion)
-                {
-                    case "1":
-                        miCine.venderTaquilla();
-                        break;
+            */
 
-                    case "2":
-                        miCine.verAforo();
-                        break;
+            /*
+            switch (opcion)
+            {
+                case "1":
+                    miCine.venderTaquilla();
+                    break;
 
-                    case "3":
-                        miCine.sacarPersonas();
-                        break;
+                case "2":
+                    miCine.verAforo();
+                    break;
 
-                    case "4":
-                        continuar = false;
-                        Console.WriteLine("Cerrando el sistema...");
-                        break;
+                case "3":
+                    miCine.sacarPersonas();
+                    break;
 
-                    default:
-                        Console.WriteLine("Opción no válida. Intente de nuevo.");
-                        break;
-                }
+                case "4":
+                    continuar = false;
+                    Console.WriteLine("Cerrando el sistema...");
+                    break;
 
-                if (continuar)
-                {
-                    Console.WriteLine("\nPresione cualquier tecla para continuar...");
-                    Console.ReadKey();
-                }
+                default:
+                    Console.WriteLine("Opción no válida. Intente de nuevo.");
+                    break;
             }
+
+            if (continuar)
+            {
+                Console.WriteLine("\nPresione cualquier tecla para continuar...");
+                Console.ReadKey();
+            }
+            */
+            // }
         }
     }
 }
