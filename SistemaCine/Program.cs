@@ -13,12 +13,8 @@ namespace SistemaCine
             miCine.verAforo();
             miCine.sacarPersonas();
 
-            //   bool continuar = true;
-
-
-
-
-            /*
+            bool continuar = true;
+    
             while (continuar)
             {
                 Console.Clear(); 
@@ -35,9 +31,7 @@ namespace SistemaCine
 
                 Console.WriteLine(); 
 
-            */
-
-            /*
+            
             switch (opcion)
             {
                 case "1":
@@ -67,8 +61,8 @@ namespace SistemaCine
                 Console.WriteLine("\nPresione cualquier tecla para continuar...");
                 Console.ReadKey();
             }
-            */
-            // }
+            
+            }
         }
     }
 }
