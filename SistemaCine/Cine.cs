@@ -23,7 +23,7 @@ namespace SistemaCine
             {
                 contarpersonas++;      
                 entradasVendidas++;   
-                Console.WriteLine($"Venta realizada. Asiento ocupado. Precio: RD${precioEntrada}");
+                Console.WriteLine($"Venta realizada. Precio: RD${precioEntrada}");
             }
             else
             {
@@ -38,7 +38,7 @@ namespace SistemaCine
             double porcentaje = ((double)contarpersonas / capacidadmaxima) * 100;
 
             Console.WriteLine($"Estado del Cine");
-            Console.WriteLine($"Asientos Usados: {contarpersonas} personas");
+            Console.WriteLine($"Personas totales: {contarpersonas} personas");
             Console.WriteLine($"Asientos Disponibles: {libres} asientos");
             Console.WriteLine($"Estado de sala: {porcentaje:F1}%"); 
             Console.WriteLine($"Total vendido: RD${entradasVendidas * precioEntrada}");
