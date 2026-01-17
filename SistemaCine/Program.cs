@@ -61,8 +61,10 @@ namespace SistemaCine
                 Console.WriteLine("\nPresione cualquier tecla para continuar...");
                 Console.ReadKey();
             }
-            
+           
             }
         }
     }
 }
+
+
